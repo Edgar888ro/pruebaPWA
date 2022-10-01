@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <h1>SUMAS Y RESTAS</h1>
+    <p>Aqui podras realizar tus suma y restas</p>
+    <script src="../App/calcular.js"></script>
+    <link rel="stylesheet" href="../App/estilos.css">
+   <link rel="manifest" href="./manifesto.json">
+   <script type="text/javascript">
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+  
+</head>
+<body>
+    
+    Numero 1: <input type="number" id="n1" min="0"><br>
+    Numero 2: <input type="number" id="n2" min="0"><br><br>
+    <button class="boton" onclick="Suma()">sumar</button>
+    <button class="boton" onclick="Resta()">Restar</button><br><br>
+    
+    Resultado: <input type="number" id="T">
+</body>
+</html>

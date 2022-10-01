@@ -1,0 +1,17 @@
+{
+    "name": "Suma y Restas",
+    "short_name": "S y R",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./img/sr1200x1200.png",
+            "type": "image/png",
+            "sizes": "1200x1200"
+        }
+    ]
+}
